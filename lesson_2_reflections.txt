@@ -1,0 +1,10 @@
+Working area--> Staging area--> Repository
+When we initialize a repository by using git init command a .git file is created and we can use the git status command to check the current status of the repository we are working with.
+git init # create a new .git commit file
+git status # to get status of the current repository
+git add [file] # used to add files to the staging area , to make them ready to be commited
+git reset [file] # re,ove file from staging area
+git commit -m "Commit message"
+% git commit not working as intended
+% git commit learned to used it needed to close all the application window of sublime 3
+git commit # - use to add commit using a text editor
