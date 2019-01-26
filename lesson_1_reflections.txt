@@ -1,0 +1,8 @@
+Made my first file. Excited about it.
+Acessing the entire history of a file can help to revert back to a previous version.
+it is easy to make saved changes in the file for yourself
+multi file version control system is better than normal because it enables to store in set of multi-file edit system
+git log [old file] [new file]# enables to view different versions of a commit, to view old version press down arrow. git diff # to diff b/w to version of a file{Note: git config --global color.ui auto # to view color-codded commit}
+git checkout # restoring all the files in a repository to a previous version of commit
+git init # create a new .git commit file
+git status # to get status of the current repository
