@@ -1,0 +1,4 @@
+git remote # list all remote repositories
+git remote add [remote name] [repository URL] # add a remote repository in given url
+git remote -v # list all remotes with verbose
+git push [remote] [branch] #
