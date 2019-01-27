@@ -4,7 +4,25 @@ git init # create a new .git commit file
 git status # to get status of the current repository
 git add [file] # used to add files to the staging area , to make them ready to be commited
 git reset [file] # re,ove file from staging area
-git commit -m "Commit message"
+git commit -m "Commit message" # commit can be entered directly in the terminal
 % git commit not working as intended
 % git commit learned to used it needed to close all the application window of sublime 3
 git commit # - use to add commit using a text editor
+git diff # difference between stagging area and working area
+git diff --staged # difference between stagging area and the last file version
+git branch # get name of different branches 
+%* denotes the current branch
+% REMEMBER 1)tip is most recent commit of the new branch 2) head is the current commit
+% remote branches are branches which user did not created
+git branch [new branch name] # create a new branch
+git checkout [branch name] # checks out the listed branch
+git log --graph --oneline master coins # graph of different branches in one lines
+%if we make a new commit to a previous parent commmit the commit will be lost without a new specified branch or 		if you don't remember the commit id
+git checkout -b [new branch name] # (18)and(19) can be together executed % problem mentioned in (20) can be 			also solved
+git gc # commmand for manual git garbage collection ,deletes commit which are unreachable from existing 				branches or were previuosly part of a branch which is deleted
+% if two branches merge git log shows commit by sorting by timestamp
+git merge [branch 1] [branch 2] # merge branch 1 in branch 2
+git merge --abort # to abort merge of two branches if a conflict occur
+% if in branch 1 and merging other 2 branches all 3 branches 
+% sometimes git merge create a conflict in merging to resolve the conflict open the conflicted file and edit it 		according to you need. Then you need to tell git that you have resolved the conflict by using git add 			and then git commit.
+git config --global credential.helper cache # and git config --global credential.helper 'cache --timeout=3600' # caching of github password
