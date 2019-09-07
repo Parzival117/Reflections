@@ -3,7 +3,7 @@ When we initialize a repository by using git init command a .git file is created
 git init # create a new .git commit file
 git status # to get status of the current repository
 git add [file] # used to add files to the staging area , to make them ready to be commited
-git reset [file] # re,ove file from staging area
+git reset [file] # remove file from staging area
 git commit -m "Commit message" # commit can be entered directly in the terminal
 % git commit not working as intended
 % git commit learned to used it needed to close all the application window of sublime 3
